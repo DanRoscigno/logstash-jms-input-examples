@@ -1,0 +1,9 @@
+dev:
+  :factory: org.apache.activemq.ActiveMQConnectionFactory
+  :transport_type: 1
+  :host_name: localhost
+  :port: 5672
+  :username: "admin"
+  :password: "abcdefghijklmnop"
+  :require_jars:
+    - /opt/bitnami/activemq/lib/activemq-all-5.15.9.jar
